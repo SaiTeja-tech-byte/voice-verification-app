@@ -47,7 +47,7 @@ def mock_deepfake_check(audio):
     return np.random.rand() < 0.3  # Randomly say 30% chance it's AI
 
 # Streamlit UI
-st.set_page_config(page_title="Live Voice Verification & Deepfake Detection")
+st.set_page_config(page_title="AI-Powered Real-Time Deepfake Audio Detection")
 st.title("🎙️ Voice Verification & Deepfake Detection")
 tabs = st.tabs(["📝 Register Voice", "🔍 Live Interview Monitor"])
 
